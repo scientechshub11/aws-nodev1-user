@@ -18,6 +18,7 @@ app.get("/", (req, res) => {
 
 app.get('/todos', (req , res) => {
     res.send(todos);
-})
+}) ;
+
 
 
